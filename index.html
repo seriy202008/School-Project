@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Интерактивная таблица ЯП</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header--container">
+                <p class="header--text">
+                    Сортировать:
+                </p>
+                <div class="header--select select">
+                    <button class="select--btn">ВЫБРАТЬ</button>
+                    <ul class="select--list">
+                        <li class="select--item" data-category="difficulty">
+                            По сложности
+                        </li>
+                        <li class="select--item" data-category="popularity">
+                            По популярности
+                        </li>
+                        <li class="select--item" data-category="perspective">
+                            По перспективе
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="table">
+                <div class="table--container">
+                    <div class="table--head">
+                        <div class="table--cell">Язык Программирования</div>
+                        <div class="table--cell">Парадигма</div>
+                        <div class="table--cell">Популярность</div>
+                        <div class="table--cell">Сложность</div>
+                        <div class="table--cell">Перспектива</div>
+                    </div>
+                    <div class="table--row" data-difficulty="1" data-popularity="1" data-perspective="0">
+                        <div class="table--cell">C#</div>
+                        <div class="table--cell">ООП</div>
+                        <div class="table--cell">14.7 %</div>
+                        <div class="table--cell">Средне</div>
+                        <div class="table--cell">Да</div>
+                    </div>
+                    <div class="table--row" data-difficulty="2" data-popularity="7" data-perspective="1">
+                        <div class="table--cell">C++</div>
+                        <div class="table--cell">Мультипарадигма</div>
+                        <div class="table--cell">3.3 %</div>
+                        <div class="table--cell">Сложно</div>
+                        <div class="table--cell">Нет</div>
+                    </div>
+                    <div class="table--row" data-difficulty="0" data-popularity="8" data-perspective="1">
+                        <div class="table--cell">Go</div>
+                        <div class="table--cell">Функциональная</div>
+                        <div class="table--cell">2.2 %</div>
+                        <div class="table--cell">Легко</div>
+                        <div class="table--cell">Нет</div>
+                    </div>
+                    <div class="table--row" data-difficulty="2" data-popularity="2" data-perspective="0">
+                        <div class="table--cell">Java</div>
+                        <div class="table--cell">ООП</div>
+                        <div class="table--cell">14.3 %</div>
+                        <div class="table--cell">Сложно</div>
+                        <div class="table--cell">Да</div>
+                    </div>
+                    <div class="table--row" data-difficulty="1" data-popularity="0" data-perspective="0">
+                        <div class="table--cell">JavaScript</div>
+                        <div class="table--cell">Функциональная</div>
+                        <div class="table--cell">18.8 %</div>
+                        <div class="table--cell">Средне</div>
+                        <div class="table--cell">Да</div>
+                    </div>
+                    <div class="table--row" data-difficulty="0" data-popularity="6" data-perspective="0">
+                        <div class="table--cell">Kotlin</div>
+                        <div class="table--cell">Функциональная</div>
+                        <div class="table--cell">3.4 %</div>
+                        <div class="table--cell">Легко</div>
+                        <div class="table--cell">Да</div>
+                    </div>
+                    <div class="table--row" data-difficulty="1" data-popularity="4" data-perspective="0">
+                        <div class="table--cell">PHP</div>
+                        <div class="table--cell">ООП</div>
+                        <div class="table--cell">10.6 %</div>
+                        <div class="table--cell">Средне</div>
+                        <div class="table--cell">Да</div>
+                    </div>
+                    <div class="table--row" data-difficulty="0" data-popularity="3" data-perspective="0">
+                        <div class="table--cell">Python</div>
+                        <div class="table--cell">Мультипарадигма</div>
+                        <div class="table--cell">11.2 %</div>
+                        <div class="table--cell">Легко</div>
+                        <div class="table--cell">Да</div>
+                    </div>
+                    <div class="table--row" data-difficulty="0" data-popularity="6" data-perspective="0">
+                        <div class="table--cell">Swift</div>
+                        <div class="table--cell">Мультипарадигма</div>
+                        <div class="table--cell">3.4 %</div>
+                        <div class="table--cell">Легко</div>
+                        <div class="table--cell">Да</div>
+                    </div>
+                    <div class="table--row" data-difficulty="2" data-popularity="5" data-perspective="0">
+                        <div class="table--cell">TypeScript</div>
+                        <div class="table--cell">Функциональная</div>
+                        <div class="table--cell">10.4 %</div>
+                        <div class="table--cell">Сложно</div>
+                        <div class="table--cell">Да</div>
+                    </div>
+                </div>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
